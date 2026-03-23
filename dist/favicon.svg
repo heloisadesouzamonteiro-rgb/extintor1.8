@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ExtintorIA">
+  <rect width="64" height="64" rx="16" fill="#0f172a" />
+  <path d="M22 14h16v6h-4v6.5c5.7 1.2 10 6.2 10 12.3V50a4 4 0 0 1-4 4H24a4 4 0 0 1-4-4V38.8c0-6.1 4.3-11.1 10-12.3V20h-4v-6Zm6 28v4h8v-4h-8Z" fill="#22c55e"/>
+  <path d="M38 18h7c2.8 0 5 2.2 5 5v4h-4v-4a1 1 0 0 0-1-1h-7v-4Z" fill="#e2e8f0"/>
+  <circle cx="32" cy="38" r="3.5" fill="#e2e8f0"/>
+</svg>
