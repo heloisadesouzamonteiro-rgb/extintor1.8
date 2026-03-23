@@ -1,0 +1,20 @@
+-- Ajuste os valores abaixo antes de executar no SQL Editor do Supabase.
+-- 1. Defina o mesmo secret em Functions Secrets como CRON_SECRET.
+-- 2. Troque a URL da function se o project ref mudar.
+-- 3. Este exemplo agenda a execucao diaria as 07:00 (America/Sao_Paulo).
+
+select cron.schedule(
+  'daily-operational-alerts',
+  '0 10 * * *',
+  $$
+  select
+    net.http_post(
+      url := 'https://pojnmgeusxohcethynut.supabase.co/functions/v1/send-daily-operational-alerts',
+      headers := jsonb_build_object(
+        'Content-Type', 'application/json',
+        'x-cron-secret', 'SUBSTITUA_PELO_SEU_CRON_SECRET'
+      ),
+      body := '{}'::jsonb
+    );
+  $$
+);

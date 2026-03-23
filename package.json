@@ -1,0 +1,38 @@
+{
+  "name": "saas-extintores",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "deploy:function:create-technician": "supabase functions deploy create-technician --no-verify-jwt --project-ref pojnmgeusxohcethynut",
+    "deploy:function:list-technicians": "supabase functions deploy list-technicians --no-verify-jwt --project-ref pojnmgeusxohcethynut",
+    "deploy:function:resend-technician-confirmation": "supabase functions deploy resend-technician-confirmation --no-verify-jwt --project-ref pojnmgeusxohcethynut",
+    "deploy:function:complete-password-reset": "supabase functions deploy complete-password-reset --no-verify-jwt --project-ref pojnmgeusxohcethynut",
+    "deploy:function:send-daily-operational-alerts": "supabase functions deploy send-daily-operational-alerts --no-verify-jwt --project-ref pojnmgeusxohcethynut",
+    "deploy:function:submit-trial-request": "supabase functions deploy submit-trial-request --no-verify-jwt --project-ref pojnmgeusxohcethynut"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "vite": "^8.0.0-beta.13"
+  },
+  "overrides": {
+    "vite": "^8.0.0-beta.13"
+  }
+}

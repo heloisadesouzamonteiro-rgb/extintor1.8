@@ -1,0 +1,17 @@
+[functions.create-technician]
+verify_jwt = false
+
+[functions.list-technicians]
+verify_jwt = false
+
+[functions.resend-technician-confirmation]
+verify_jwt = false
+
+[functions.complete-password-reset]
+verify_jwt = false
+
+[functions.submit-trial-request]
+verify_jwt = false
+
+[functions.send-daily-operational-alerts]
+verify_jwt = false

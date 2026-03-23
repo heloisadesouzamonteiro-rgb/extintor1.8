@@ -1,0 +1,17 @@
+{
+  "name": "ExtintorIA",
+  "short_name": "ExtintorIA",
+  "description": "Sistema de gestao para empresas de extintores com clientes, extintores, O.S. e inspecoes.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+node_modules
+dist
+.git
+.env
+.env.production
+extintor1.1
+tmp_report_streams.txt
+supabase/.temp
